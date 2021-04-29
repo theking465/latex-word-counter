@@ -1,0 +1,1 @@
+export { default as latexPreamble } from './latex-preamble';
