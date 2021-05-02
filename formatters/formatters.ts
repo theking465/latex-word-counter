@@ -4,3 +4,5 @@
 
 export { default as latexMath } from './latex-math';
 export { default as latexPreamble } from './latex-preamble';
+export { default as latexSections } from './latex-sections';
+export { default as latexParagraphs } from './latex-paragraps';
