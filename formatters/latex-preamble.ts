@@ -1,11 +1,11 @@
+import split from '../actions/splitter';
+
 /**
- * 
- * @param doc the input value, a string with no newlines
- * @returns a string with preamble and afteramble removed.
+ * @param {string} doc the input value, a string with no newlines
+ * @returns {string} String with preamble and afteramble removed.
  */
 function latexPreamble(doc:string) : string{
-	if (!doc.includes('\\begin{document}') || !doc.includes('\\end{document}')) return doc;
-	return doc.split('\\begin{document}')[1].split('\\end{document}')[0];
+	return split(doc, '\\begin{document}', '\\end{document}');
 }
 
 export default latexPreamble;

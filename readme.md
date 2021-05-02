@@ -7,5 +7,6 @@ Clone this repository and install the npm packages using
 `npm install`
 
 Add your input file to the upper directory as input.tex
+
 Run the program using
 `npm start`

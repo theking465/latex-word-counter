@@ -42,6 +42,8 @@ module.exports = {
 		'object-curly-spacing': [
 			'error',
 			'always'
-		]
+		],
+		'no-useless-escape':
+			'off'
 	}
 };
